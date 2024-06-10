@@ -8,12 +8,12 @@ function validarFormulario() {
         alert("Por favor, completa todos los campos.");
         return false;
     }
+
+    const envioExitoso = true; // Cambia a false si el envío falla
+
+    if (envioExitoso) {
+        alert("¡Hurra! Iré por batatas mientras tanto.");
+    }
+
+    return envioExitoso; // Retorna el estado de envioExitoso
 }
-
-const envioExitoso = true; // Cambia a false si el envío falla
-
-if (envioExitoso) {
-    alert("¡Hurra! Iré por batatas mientras tanto.");
-}
-
-return true;
